@@ -1,0 +1,66 @@
+.banner {
+  height: 1046px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-content {
+  width: 1400px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.job-description {
+  margin-bottom: 6em;
+}
+
+.profile-picture {
+  background-color: white;
+  height: 757px;
+  width: 458px;
+  box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.2);
+}
+
+.middle-left-banner {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.middle-left-left {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3em;
+  a {
+    color: #595959;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  a:hover {
+    // font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+.middle-left-right {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  background-color: #F5EBE7;
+}
+
+.call-to-arms-box {
+  margin: auto 70px;
+}
+
+.introduction {
+}
+
+.hire-me-button {
+  background-color: white;
+  border: 1px black solid;
+  height: 3em;
+  width: 15em;
+  margin: auto;
+}
