@@ -1,0 +1,39 @@
+.biography {
+
+}
+
+.biography-content {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+
+.personal-info {
+  padding-right: 95px;
+}
+
+.biography-body {
+  li {
+    color: #595959;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+}
+
+.biography-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.biography-pictures {
+  background-color: white;
+  height: 299px;
+  width: 458px;
+}
+
+.biography-columns-left {
+
+}
+.biography-columns-right {
+
+}
