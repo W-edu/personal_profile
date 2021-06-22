@@ -2,6 +2,10 @@
   background-color: transparent;
 }
 
+.profile-section {
+  margin-bottom: 3em;
+}
+
 .home {
   background-color: #F9F1EF;
 }
@@ -13,12 +17,12 @@
 
 h1 {
   font-size: 80px;
-  font-family: 'Playfair Display', serif;;
+  font-family: 'Playfair Display', serif;
 }
 
 h2 {
   font-size: 40px;
-  font-family: 'Playfair Display', serif;;
+  font-family: 'Playfair Display', serif;
 }
 
 h4 {
@@ -54,10 +58,15 @@ p {
 }
 
 .history-entry {
-
+  margin: 2em 0;
 }
 
-#highlighted-email-address {
-  font-weight: bold;
+.history-link {
   color: $link_salmon;
+  a {
+    margin-left: 1em;
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
+    color: $link_salmon;
+  }
 }

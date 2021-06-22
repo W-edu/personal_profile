@@ -15,6 +15,13 @@
   }
 }
 
+.biography-blurb {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: .5em;
+  margin-bottom: 3em;
+}
+
 .biography-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;

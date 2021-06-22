@@ -50,6 +50,15 @@
   background-color: #F5EBE7;
 }
 
+.contact-information-link {
+  display: flex;
+}
+
+#highlighted-email-address {
+  font-weight: bold;
+  color: $link_salmon;
+}
+
 .call-to-arms-box {
   margin: auto 70px;
 }
