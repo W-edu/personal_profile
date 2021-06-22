@@ -2,11 +2,6 @@
 
 }
 
-.biography-content {
-  display: grid;
-  grid-template-columns: 2fr 5fr;
-}
-
 .personal-info {
   padding-right: 95px;
 }
@@ -26,7 +21,7 @@
 }
 
 .biography-pictures {
-  background-color: white;
+  background-color: $highlight_pink;
   height: 299px;
   width: 458px;
 }
