@@ -69,4 +69,7 @@ p {
     text-decoration: none;
     color: $link_salmon;
   }
+  a:hover {
+    text-decoration: underline;
+  }
 }

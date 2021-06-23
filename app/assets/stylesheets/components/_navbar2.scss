@@ -1,0 +1,31 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: $background_pink;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.logo-name {
+  display: flex;
+  p {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+  }
+}
+
+#logo-name-stop {
+  color: $link_salmon;
+}
+
+#navbar-grey-line {
+  margin: 0 1rem;
+}
