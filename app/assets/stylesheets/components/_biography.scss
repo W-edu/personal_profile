@@ -6,6 +6,27 @@
   padding-right: 95px;
 }
 
+.address-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  p {
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+$address_space: 1.2em;
+
+#address-line-2 {
+  margin-left: $address_space;
+}
+#city {
+  margin-left: 2*$address_space;
+}
+#post-code {
+  margin-left: 3*$address_space;
+}
+
 .biography-body {
   li {
     color: #595959;
