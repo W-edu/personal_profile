@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PersonalProfile</title>
+    <%# <title>Alec Wayman | Profile</title> %>
+    <% title = "Alec Wayman | Profile" %>
+    <% if content_for? :for_head %>
+      <%= yield :for_head %>
+    <% else %>
+      <title><%= title %></title>
+    <% end %>
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/dlm5qwdjs/image/upload/v1624552079/favicon_3_zshmna.ico"/>
+
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -20,5 +29,6 @@
     <%= render 'shared/flashes' %>
 
     <%= yield %>
+
   </body>
 </html>
