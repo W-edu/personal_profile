@@ -4,6 +4,7 @@
 
 .personal-info {
   padding-right: 95px;
+  justify-content: right;
 }
 
 .address-container {
@@ -15,7 +16,7 @@
   }
 }
 
-$address_space: 1.2em;
+$address_space: 0em;
 
 #address-line-2 {
   margin-left: $address_space;
