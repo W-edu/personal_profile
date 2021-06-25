@@ -7,9 +7,8 @@
 }
 
 .banner-content {
-  width: 1400px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .job-description {
@@ -18,14 +17,12 @@
 
 .profile-picture {
   background-color: white;
-  height: 757px;
-  width: 458px;
   box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.2);
 }
 
 .middle-left-banner {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr;
 }
 
 .middle-left-left {
@@ -77,18 +74,15 @@
 }
 
 .call-to-arms-box {
-  margin: auto 70px;
+  margin: 1em auto;
+
 }
 
 .introduction {
 }
 
 .hire-me-container {
-  justify-content: right;
-  margin-left: 37em;
-  position: relative;
-  left: 2em;
-  top: -1em;
+  justify-content: center;
 }
 
 .hire-me-button {
@@ -99,7 +93,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // margin: auto;
+  margin: 1em auto;
   padding: 1em;
   h4 {
     margin: 0;
@@ -108,4 +102,31 @@
 
 .hire-me-button:hover {
   background-color: $link_salmon;
+}
+
+@media (min-width: 40em) {
+  .banner-content {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .middle-left-banner {
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .profile-picture {
+    height: 757px;
+    width: 458px;
+  }
+
+  .call-to-arms-box {
+    margin: auto 70px;
+  }
+
+  .hire-me-container {
+    justify-content: right;
+    margin-left: 37em;
+    position: relative;
+    left: 2em;
+    top: -1em;
+  }
 }
