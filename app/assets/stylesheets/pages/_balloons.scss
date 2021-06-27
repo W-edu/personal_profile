@@ -13,6 +13,12 @@ p {
 
 * { box-sizing: border-box; }
 
+.balloons-container {
+  margin: auto;
+  justify-content: center;
+  width: 24em;
+}
+
 .grid {
   display: grid;
   grid-gap: 1em;
@@ -29,6 +35,25 @@ p {
 }
 
 @media (min-width: 40em) {
+  .balloons-container {
+    width: 36em;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  header,
+  footer {
+    grid-column: 1 / 3;
+  }
+}
+
+@media (min-width: 64em) {
+  .balloons-container {
+    width: 60em;
+  }
+
   .grid {
     grid-template-columns: 2fr 1fr;
   }
