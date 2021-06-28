@@ -12,10 +12,11 @@
 }
 
 .job-description {
-  margin-bottom: 6em;
+  margin-bottom: 2em;
 }
 
 .profile-picture {
+  display: none;
   background-color: white;
   box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.2);
 }
@@ -28,7 +29,7 @@
 .middle-left-left {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 3em;
+  row-gap: 1em;
   a {
     color: #595959;
     text-decoration: none;
@@ -104,13 +105,27 @@
   background-color: $link_salmon;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 90em) {
   .banner-content {
     grid-template-columns: 2fr 1fr;
   }
 
+  .job-description {
+    h1 {
+      font-size: 5em;
+    }
+  }
+
+  .job-description {
+    margin-bottom: 6em;
+  }
+
   .middle-left-banner {
     grid-template-columns: 2fr 3fr;
+  }
+
+  .middle-left-left {
+    row-gap: 3em;
   }
 
   .profile-picture {
@@ -129,24 +144,28 @@
     left: 2em;
     top: -1em;
   }
+
+  .profile-picture {
+    display: block;
+  }  
   
   .banner {
     padding: 3em 0;
   }
 }
 
-@media (min-width: 576) { // 36em
+// @media (min-width: 576) { // 36em
   
-}
+// }
 
-@media (min-width: 768) { // 48em
+// @media (min-width: 768) { // 48em
   
-}
+// }
 
-@media (min-width: 992) { // 62em
+// @media (min-width: 992) { // 62em
   
-}
+// }
 
-@media (min-width: 1200) { // 75em
+// @media (min-width: 1200) { // 75em
 
-}
+// }

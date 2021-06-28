@@ -1,33 +1,3 @@
-// .home-container {
-//   width: 100%;
-//   padding: 0 15px;
-//   margin: 0 auto;
-// }
-
-// @media (min-width: 576) { // 36em
-//   .home-container {
-//     max-width: 540; // 33.75em
-//   }
-// }
-
-// @media (min-width: 768) { // 48em
-//   .home-container {
-//     max-width: 720; // 45em
-//   }
-// }
-
-// @media (min-width: 992) { // 62em
-//   .home-container {
-//     max-width: 960; // 60em
-//   }
-// }
-
-// @media (min-width: 1200) { // 75em
-//   .home-container {
-//     max-width: 1140; // 71.25em
-//   }
-// }
-
 * {
   background-color: transparent;
 }
@@ -41,12 +11,18 @@
 }
 
 .home-container {
-  max-width: 1400px;
-  margin: auto;
+  margin: auto 3rem;
+}
+
+@media (min-width: 90rem) {
+  .home-container {
+    max-width: 87.5rem;
+    margin: auto;
+  }
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 2rem;
   font-family: 'Playfair Display', serif;
 }
 
@@ -78,7 +54,13 @@ p {
 
 .two-five-content {
   display: grid;
-  grid-template-columns: 2fr 5fr;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 90rem) {
+  .two-five-content {
+    grid-template-columns: 2fr 5fr;
+  }
 }
 
 .history-list {

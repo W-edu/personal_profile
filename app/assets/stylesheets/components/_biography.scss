@@ -1,7 +1,3 @@
-.biography {
-
-}
-
 .personal-info {
   padding-right: 95px;
   justify-content: right;
@@ -57,18 +53,22 @@ $address_space: 0em;
 
 .biography-columns {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .biography-pictures {
   background-color: $highlight_pink;
-  height: 299px;
-  width: 458px;
+  width: 100%;
 }
 
-.biography-columns-left {
 
-}
-.biography-columns-right {
+@media (min-width: 90rem) {
+  .biography-columns {
+    grid-template-columns: 1fr 1fr;
+  }
 
+  .biography-pictures {
+    height: 299px;
+    width: 458px;
+  }
 }
