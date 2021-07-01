@@ -3,35 +3,33 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 3em 0;
+  padding: 1em 0;
 }
 
 .banner-content {
-  width: 1400px;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .job-description {
-  margin-bottom: 6em;
+  margin-bottom: 2em;
 }
 
 .profile-picture {
+  display: none;
   background-color: white;
-  height: 757px;
-  width: 458px;
   box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.2);
 }
 
 .middle-left-banner {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr;
 }
 
 .middle-left-left {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 3em;
+  row-gap: 1em;
   a {
     color: #595959;
     text-decoration: none;
@@ -77,18 +75,15 @@
 }
 
 .call-to-arms-box {
-  margin: auto 70px;
+  margin: 1em auto;
+
 }
 
 .introduction {
 }
 
 .hire-me-container {
-  justify-content: right;
-  margin-left: 37em;
-  position: relative;
-  left: 2em;
-  top: -1em;
+  justify-content: center;
 }
 
 .hire-me-button {
@@ -99,7 +94,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // margin: auto;
+  margin: 1em auto;
   padding: 1em;
   h4 {
     margin: 0;
@@ -109,3 +104,68 @@
 .hire-me-button:hover {
   background-color: $link_salmon;
 }
+
+@media (min-width: 90em) {
+  .banner-content {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .job-description {
+    h1 {
+      font-size: 5em;
+    }
+  }
+
+  .job-description {
+    margin-bottom: 6em;
+  }
+
+  .middle-left-banner {
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .middle-left-left {
+    row-gap: 3em;
+  }
+
+  .profile-picture {
+    height: 757px;
+    width: 458px;
+  }
+
+  .call-to-arms-box {
+    margin: auto 70px;
+  }
+
+  .hire-me-container {
+    justify-content: right;
+    margin-left: 37em;
+    position: relative;
+    left: 2em;
+    top: -1em;
+  }
+
+  .profile-picture {
+    display: block;
+  }  
+  
+  .banner {
+    padding: 3em 0;
+  }
+}
+
+// @media (min-width: 576) { // 36em
+  
+// }
+
+// @media (min-width: 768) { // 48em
+  
+// }
+
+// @media (min-width: 992) { // 62em
+  
+// }
+
+// @media (min-width: 1200) { // 75em
+
+// }
