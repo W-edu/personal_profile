@@ -1,0 +1,21 @@
+.session {
+  background-color: $background_pink;
+}
+
+.session-container {
+  height: 100vh;
+}
+
+.log-in-label {
+  font-family: 'IBM Plex Mono', monospace;
+  // font-weight: bold;
+  color: $link_salmon;
+}
+
+.log-in-button {
+  justify-content: center;
+  height: 3rem;
+  width: 12rem;
+  background-color: white;
+  border: black solid 1px;
+}
