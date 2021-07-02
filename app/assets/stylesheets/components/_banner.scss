@@ -12,7 +12,11 @@
 }
 
 .job-description {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
+}
+
+.home-tagline {
+  margin-top: 2rem;
 }
 
 .profile-picture {
@@ -105,19 +109,23 @@
   background-color: $link_salmon;
 }
 
-@media (min-width: 90em) {
+@media (min-width: 90rem) {
   .banner-content {
     grid-template-columns: 2fr 1fr;
   }
 
   .job-description {
     h1 {
-      font-size: 5em;
+      font-size: 5rem;
     }
   }
 
   .job-description {
-    margin-bottom: 6em;
+    margin-bottom: 3rem;
+  }
+
+  .home-tagline {
+    margin-top: 3rem;
   }
 
   .middle-left-banner {
@@ -125,7 +133,7 @@
   }
 
   .middle-left-left {
-    row-gap: 3em;
+    row-gap: 3rem;
   }
 
   .profile-picture {
@@ -137,20 +145,20 @@
     margin: auto 70px;
   }
 
-  .hire-me-container {
-    justify-content: right;
-    margin-left: 37em;
-    position: relative;
-    left: 2em;
-    top: -1em;
-  }
+  // .hire-me-container {
+  //   justify-content: right;
+  //   margin-left: 37rem;
+  //   position: relative;
+  //   left: 2rem;
+  //   top: -1rem;
+  // }
 
   .profile-picture {
     display: block;
   }  
   
   .banner {
-    padding: 3em 0;
+    padding: 3rem 0;
   }
 }
 
