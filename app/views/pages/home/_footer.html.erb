@@ -1,8 +1,20 @@
 <div class="footer">
   <div class="footer-container">
-    <h1 class="footer-title">Footer</h1>
-    <hr class="grey-line">
-    <p>Made without love by Alec</p>
-    <p>Add more bits here</p>
+    <div class="footer-over-line">
+      <p>Created by <strong>Alec Wayman</strong></p>
+      <div class="footer-link-symbols">
+        <%= link_to "https://github.com/W-edu", target: "_blank" do %>
+          <i class="fab fa-github"></i>
+        <% end %>
+        <%= link_to "https://www.linkedin.com/in/aejw", target: "_blank" do %>
+          <i class="fab fa-linkedin-in"></i>
+        <% end %>
+        <%= link_to "https://www.twitter.com", target: "_blank" do %>
+          <i class="fab fa-twitter"></i>
+        <% end %>
+      </div>
+    </div>
+    <%# <hr class="grey-line">
+    <p>Add more bits here</p> %>
   </div>
 </div>
