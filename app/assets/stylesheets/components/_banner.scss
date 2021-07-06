@@ -114,6 +114,10 @@
     grid-template-columns: 2fr 1fr;
   }
 
+  .left-banner-content {
+    align-self: center;
+  }
+
   .job-description {
     h1 {
       font-size: 5rem;
@@ -137,8 +141,9 @@
   }
 
   .profile-picture {
-    height: 757px;
-    width: 458px;
+    // height: 757px;
+    // width: 458px;
+    // height: 45rem;
   }
 
   .call-to-arms-box {
