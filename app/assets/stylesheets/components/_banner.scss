@@ -134,6 +134,7 @@
 
   .middle-left-banner {
     grid-template-columns: 2fr 3fr;
+    column-gap: 5rem;
   }
 
   .middle-left-left {
@@ -147,7 +148,7 @@
   }
 
   .call-to-arms-box {
-    margin: auto 70px;
+    margin: auto 5rem;
   }
 
   // .hire-me-container {
